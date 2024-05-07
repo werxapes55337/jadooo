@@ -1,0 +1,107 @@
+:root {
+    --btn-wth: 15%;
+    --btn-hgt: 15vh;
+  }
+
+  body {
+    justify-content: center;
+  }
+
+  header {
+    height: 30vh;
+
+    display: flex;
+    align-items: center;
+  }
+
+  menu {
+    width: 75%;
+    display: flex;
+  }
+
+  #logo,
+  #admin {
+    display: flex;
+    width: 200px;
+    height: auto;
+  }
+  .YaPomny {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #0000;
+    border: #0000;
+  }
+  
+  .DKizgoy {
+    position: absolute;
+    left: 325px;
+    bottom: -60px;
+  }
+  
+  body {
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+    display: flex;
+  }
+  /*применение пупсиков*/
+  .box {
+    width: 30%;
+    height: 27vh;
+    background-color: white;
+
+    margin: 10px;
+  }
+  .baton {
+    background: orange;
+    height: 40px;
+    position: relative;
+    right: 5px;
+    width: 150px;
+    up: 100px;
+    border-radius: 25px;
+    color: #fff;
+  }
+  .rostiks {
+    background: white;
+    height: 50px;
+    position: relative;
+    right: 525px;
+    width: 150px;
+    color: grey;
+  }
+
+  main {
+    margin-bottom: 200px;
+  }
+  h1 {
+      width: 350px;
+      height: 1500px;
+      font-size: 45px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+      position: relative; 
+      left: 100px;
+
+  }
+  .box {
+      width: 70%;
+      height: 80vh;
+
+      display: flex;
+      flex-direction: row;
+  }
+    .img1 {
+        width: 650px;
+        height: 425px;
+
+        position: relative;
+        left: 270px;
+
+    }
